@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+        android:layout_weight="0.8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sifar Denggi"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:id="@+id/aboutdesc"
+            android:justificationMode="inter_word"
+            android:text="Aplikasi yang dibangunkan untuk meningkatkan kesedaran masyarakat mengenai penyakit denggi di lokaliti masing-masing dan seluruh negara serta kaedah pencegahannya. Setiap daripada kita boleh membantu mencegah pembiakan nyamuk Aedes serta mengawal wabak denggi."/>
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1.1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dibangunkan oleh"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/school_of_biomedical_engineering_and_health_science"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capaian data daripada"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/idenggue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disokong penuh oleh"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/kkm2"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

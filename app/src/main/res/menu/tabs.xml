@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/home"
+        android:title="Utama" />
+    <item
+        android:id="@+id/tab_bread"
+        android:icon="@drawable/graph"
+        android:title="Statistik" />
+    <item
+        android:id="@+id/tab_lala"
+        android:icon="@drawable/hailer"
+        android:title="Informasi" />
+    <item
+        android:id="@+id/tab_cart"
+        android:icon="@drawable/map"
+        android:title="Klinik" />
+    <item
+        android:id="@+id/tab_alarm"
+        android:icon="@drawable/meter"
+        android:title="Ujian" />
+    <item
+        android:id="@+id/tab_about"
+        android:icon="@drawable/about"
+        android:title="Info" />
+
+</menu>
+

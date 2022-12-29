@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#186eff">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="20dp"
+                    android:text="Kaedah Alternatif"
+                    android:gravity="center_vertical"
+                    android:paddingStart="38dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/toolbarText"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/back"
+                    android:id="@+id/back"
+                    android:paddingEnd="20dp"
+                    tools:ignore="RtlSymmetry" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:backgroundTint="@color/grey">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:textColor="@color/white"
+                    android:text="Tumbuhan yang boleh menghalau nyamuk" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:text="Kes dilaporkan harian"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/tahiayam"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok bunga tahi ayam"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:text="Lantana Camara"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Pattanayak et.al (2015). Plant Having Mosquito Repellent Activity:
+An Ethnobotanical Survey. http//:www.ijrdpl.com"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:text="Kes dilaporkan harian"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/seraiwangi"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok serai wangi"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Cymbopogan nardus"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:text="Kes dilaporkan harian"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/selasih"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok selasih"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:text="Ocimum basilicum"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Pattanayak et.al (2015). Plant Having Mosquito Repellent Activity:
+An Ethnobotanical Survey. http//:www.ijrdpl.com"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:text="Kes dilaporkan harian"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/akarwangi"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok akar wangi"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Vetiveria zizanioides"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Pattanayak et.al (2015). Plant Having Mosquito Repellent Activity:
+An Ethnobotanical Survey. http//:www.ijrdpl.com"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:text="Kes dilaporkan harian"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lidahbuaya"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok Lidah Buaya"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Aloe Barbadensis Miller"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/floramaster"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok floramaster"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Fernandoa adenophylla"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/tongkatali"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok Tongkat Ali"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Eurycoma longifolia"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/mambu"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok Mambu"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Azadirachta indica"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_marginBottom="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="126dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/jeremin"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="Pokok Jeremin"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:text="Pelargonium citrosum"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:textSize="10sp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="4dp"
+                            android:text="Kajian oleh Zaridah et.al (2005). Mosquitocidal Activities Of Malaysian Plants.
+Journal of Tropical Forest Science. January 2006"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
